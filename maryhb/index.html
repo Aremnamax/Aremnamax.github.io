@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+		<div class="marqueeR" style="font-family: webcomic; color:#AFDAFC">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeL" style="font-family: ambidexter; color:#FFD1DC">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeR" style="font-family: gogol;color:#CCCCFF">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeL" style="font-family: Valisca;color:#F9F8BB">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeR" style="font-family: Theater-Atlas-Deco;color:#FFBD88">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeL" style="font-family: Soledago;color:#71BC78">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeR" style="font-family: Nord-Star-Deco;color:#F5FFFA">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+		<div class="marqueeL" style="font-family: ambidexter;color:#E4717A">Маша, с др! Маша, с др! Маша, с др! Маша, с др!</div>
+	</main>
+
+	<section class="img-section">
+		<h1 class="img-section-text">Ещё раз поздравляю тебя!</h1>
+		<div class="items">
+			<img src="img/1.jpg" alt="" class="img-section-item">
+			<img src="img/2.jpg" alt="" class="img-section-item">
+			<img src="img/3.jpg" alt="" class="img-section-item">
+			<img src="img/4.jpg" alt="" class="img-section-item">
+			<img src="img/5.jpg" alt="" class="img-section-item">
+			<img src="img/6.jpg" alt="" class="img-section-item">
+			<img src="img/7.jpg" alt="" class="img-section-item">
+			<img src="img/8.jpg" alt="" class="img-section-item">
+			<img src="img/9.jpg" alt="" class="img-section-item">
+			<img src="img/10.jpg" alt="" class="img-section-item">
+			<img src="img/11.jpg" alt="" class="img-section-item">
+			<img src="img/12.jpg" alt="" class="img-section-item">
+			<img src="img/13.jpg" alt="" class="img-section-item">
+			<img src="img/14.jpg" alt="" class="img-section-item">
+			<img src="img/15.jpg" alt="" class="img-section-item">
+			<!-- <img src="img/16.jpg" alt="" class="img-section-item"> -->
+		</div>
+	</section>
+
+	<section class="final">
+		<h1>С днем рождения!</h1>
+		<div class="final-items">
+			<img src="img/model/1.png" alt="" class="final-img" style="left: -1.5rem;top: -0.5srem;height: 40rem;">
+			<img src="img/model/2.png" alt="" class="final-img" style="right: -11rem;height: 60rem;">
+			<img src="img/model/3.png" alt="" class="final-img" style="left: 5rem;bottom: -8rem;height: 50rem;">
+			<img src="img/model/4.png" alt="" class="final-img" style="left: 25rem;bottom: -8rem;height: 35rem;">
+			<img src="img/model/5.png" alt="" class="final-img" style="left: -3rem;bottom: -8rem;height: 35rem;">
+			<img src="img/model/6.png" alt="" class="final-img" style="left: 50%;bottom: 50%;height: 60rem;">
+			<img src="img/model/7.png" alt="" class="final-img" style="left: 50%;bottom: 50%;height: 60rem;">
+			<img src="img/model/8.png" alt="" class="final-img" style="">
+			<img src="img/model/9.png" alt="" class="final-img" style="">
+		</div>
+	</section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+
+	<script>
+		$(function() {
+		  $('.marqueeR').marquee({
+		  	delayBeforeStart: 0,
+		    duration: 7000,
+		    startVisible: true,
+		    duplicated: true,
+		    direction: 'right',
+		  });
+		});
+		$(function() {
+		  $('.marqueeL').marquee({
+		  	delayBeforeStart: 0,
+		    duration: 7000,
+		    startVisible: true,
+		    duplicated: true,
+		    direction: 'left',
+		  });
+		});
+	</script>
+</body>
+</html>
